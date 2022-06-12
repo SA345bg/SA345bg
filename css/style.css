@@ -28,3 +28,32 @@ body {
     height: 60px;
     margin-left: 20px;
 }
+div nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div nav ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: grey;
+    opacity: .9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+div nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+div nav ul li a:hover {
+    background-color: gold;
+}
+div nav ul li ul li {
+    display: none;
+}
+div nav ul li:hover ul li {
+    display: block;
+}
