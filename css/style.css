@@ -1,3 +1,8 @@
+body {
+    background-image:  url('road-in-autumn.jpg');
+    background-size: cover;
+}
+
 #header {
     width: 90%;
     height: 80px;
