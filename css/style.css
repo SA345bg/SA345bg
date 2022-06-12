@@ -1,0 +1,26 @@
+#header {
+    width: 90%;
+    height: 80px;
+    margin-left: 20px;
+}
+#container {
+    width: 90%;
+    margin-left: 20px;
+    min-height: 600px;
+}
+#sidecolumn {
+    float: right;
+    width: 150px;
+    margin: 20px 0 0 0;
+    padding: 1em;
+    min-height: 570px;
+}
+#bodytext {
+    padding: 1em;
+    margin-right: 175px;
+}
+#footer {
+    width: 90px;
+    height: 60px;
+    margin-left: 20px;
+}
