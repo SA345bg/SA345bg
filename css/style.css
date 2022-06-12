@@ -49,7 +49,7 @@ div nav ul li a {
     display: block;
 }
 div nav ul li a:hover {
-    background-color: gold;
+    background-color: darkturquoise;
 }
 div nav ul li ul li {
     display: none;
