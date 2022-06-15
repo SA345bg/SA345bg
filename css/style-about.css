@@ -13,15 +13,26 @@ header {
     margin-left: 20px;
     min-height: 700px;
 }
+/*sidecolumn*/
 #sidecolumn {
     float: right;
     width: 150px;
     margin: 20px 0 0 0;
-    padding: 1em;
+    padding: 10px;
     border: 3px solid red;
 }
-#bodytext {
-    padding: 1em;
+main div ul li {
+    list-style: none;
+}
+main div ul li a {
+    display: block;
+    margin-top: 15px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.main-body {
+    padding: 10px;
     margin-right: 175px;
 }
 footer {
@@ -29,7 +40,7 @@ footer {
     height: 50px;
     margin-right: 20px;
 }
-/*navigation menu fixed*/
+/*navigation menu*/
 header nav {
     position: relative;
 	width: 100%;
@@ -73,6 +84,98 @@ header nav ul li ul li a:hover {
     border-bottom: 3px solid red;
 }
 
+/*sidecolumn*/
+header nav ul {
+    list-style: none;
+}
+
+/*header main class*/
+.header-main {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+/*header div img*/
+header div img {
+	float: left;
+    position: relative;
+    top: 50px;
+    left: 150px;
+	width: 300px;
+	margin: -30px 0 0 -100px;
+	border-radius: 150px;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+header div img:hover {
+	-webkit-filter: grayscale();
+	filter: grayscale();
+}
+
+header div h1 {
+    position: relative;
+    top: 100px;
+    left: 200px;
+	margin: 10px 0;
+	font-size: 40px;
+	font-weight: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    display: none;
+}
+
+header div p {
+    position: relative;
+    top: 150px;
+    left: 200px;
+	margin: 10px 0;
+	color: #00aaff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 20px;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+
+}
+
+.header-aside {
+    position: relative;
+    top: 200px;
+    left: 100px;
+	width: 50%;
+	margin: 10px -330px 0 50px;
+    display: inline-block;
+}
+
+.main-main {
+    position: relative;
+    top: -120px;
+    left: 200px;
+    width: 50%;
+}
+
+.main-aside {
+    position: relative;
+    top: 200px;
+    left: 700px;
+	width: 50%;
+	margin: 10px -330px 0 50px;
+}
+
+header div h2, main div h2, header aside h2 {
+    color: red;
+    font-size: 20px;
+}
+main div dl dt {
+    font-style: italic;
+}
+
 /*footer*/
 footer h1 {
     float: left;
@@ -83,70 +186,11 @@ footer h1 {
     text-align: center;
     white-space: nowrap;
     margin-left: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 0;
 }
 .social {
     float: right;
     display: inline-block;
     margin: 5px;
-}
-/*sidecolumn*/
-header nav ul {
-    list-style: none;
-}
-/*sidecolumn*/
-header nav ul li a {
-        display: inline-block;
-        height: 40px;
-        text-decoration: none;
-        margin-top: 10px;
-}
-/*bodytext*/
-
-
-
-.header-main, .aside-1 {
-    position: relative;
-	display: inline-block;
-	width: 50%;
-	box-sizing: border-box;
-	vertical-align: top;
-}
-}
-.header-main {
-    float: left;
-    position: relative;
-    margin: 0 -300px 0 50px;
-}
-.aside-1 {
-    position: relative;
-    margin: 0 -300px 0 50px;
-    margin-top: 100px;
-    margin-left: 25px;
-}
-.photo {
-    margin: 10px;
-    border: 0.5px solid black;
-    position: relative;
-    z-index: 1;
-}
-.body-main, .aside-2 {
-    position: relative;
-	display: inline-block;
-	width: 50%;
-	box-sizing: border-box;
-	vertical-align: top;
-}
-.body-main {
-    float: left;
-    position: relative;
-    margin: 150 -300px 0 50px;
-}
-.aside-2 {
-    position: relative;
-    margin: 150 -300px 0 50px;
-    padding-left: 48px;
-}
-#bodytext {
-    border: 3px solid blue;
-    overflow: scroll;
 }
