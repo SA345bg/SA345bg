@@ -1,7 +1,7 @@
 * {
-	padding: 0;
-	margin: 0;
-	outline: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
 header {
     width: 100%;
@@ -17,6 +17,7 @@ header {
 #sidecolumn {
     float: right;
     width: 250px;
+    height: 400px;
     margin-top: 100px;
     margin-right: 50px;
     border: 3px solid red;
@@ -28,9 +29,13 @@ main div ul li a {
     text-decoration: none;
     width: 100%;
     line-height: 40px;
-    margin: 15px 20px 10px;
+    font-size: 20px;
+    font-family: 'Arial';
 }
-
+.exit {
+    padding: 10px;
+    margin: 10px 20px 10px;
+}
 .main-main {
     padding: 10px;
     margin-right: 175px;
