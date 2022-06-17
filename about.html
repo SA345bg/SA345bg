@@ -15,36 +15,39 @@
 </head>
 <body>
     <header>
-        <!--Main Navigation-->
-        <nav>
-            <ul>
-                <li><a href="http://lighthouse.vasquez345.bg.cm/index.html">Начало</a></li>
-                <li><a href="http://lighthouse.vasquez345.bg.cm/about.html">За&nbsp;мен</a>
-                    <ul>
-                        <li><a href="#profile">Профил</a></li>
-                        <li><a href="#experience">Опит</a></li>
-                        <li><a href="#education">Образование</a></li>
-                        <li><a href="#languages">Езици</a></li>
-                        <li><a href="#software">Софтуер</a></li>
-                        <li><a href="#interests">Интереси</a></li>
-                    </ul>
-                </li>
-                <li><a href="http://lighthouse.vasquez345.bg.cm/services.html">Услуги</a>
-                    <ul>
-                        <li><a href="#prizes">Цени</a></li>
-                    </ul>
-                </li>
-                <li><a href="http://lighthouse.vasquez345.bg.cm/projects.html">Проекти</a></li>
-                <li><a href="http://lighthouse.vasquez345.bg.cm/news.html">Новини</a></li>
-                <li><a href="http://lighthouse.vasquez345.bg.cm/security.html">Сигурност</a></li>
-            </ul>
-        </nav>
-        <div class="header-main">
+        <!--Logo-->
+    </header>
+    <nav>
+        <!--Navigation Menu-->
+        <ul>
+            <li><a href="index.html">Начало</a></li>
+                <li><a href="about.html">За&nbsp;мен</a>
+                <ul>
+                    <li><a href="#profile">Профил</a></li>
+                    <li><a href="#experience">Опит</a></li>
+                    <li><a href="#education">Образование</a></li>
+                    <li><a href="#languages">Езици</a></li>
+                    <li><a href="#software">Софтуер</a></li>
+                    <li><a href="#interests">Интереси</a></li>
+                </ul>
+            </li>
+            <li><a href="services.html">Услуги</a>
+                <ul>
+                    <li><a href="#prizes">Цени</a></li>
+                </ul>
+            </li>
+            <li><a href="projects.html">Проекти</a></li>
+            <li><a href="news.html">Новини</a></li>
+            <li><a href="security.html">Сигурност</a></li>
+        </ul>
+    </nav>
+    <main id="container">
+        <div class="mainTop">
             <img src="images/SA.jpg">
             <h1>инж.&nbsp;С.&nbsp;А.</h1>
             <p>Машинен&nbsp;инженер<br>и<br>Уеб&nbsp;разработчик</p>
         </div>
-        <aside class="header-aside">
+        <aside class="asideTop">
             <a name="profile"></a>
             <h2 class="profile">Профил:</h2>
             <ul>
@@ -53,19 +56,17 @@
                 <li class="email">fx345@abv.bg</li>
             </ul>
         </aside>
-    </header>
-    <main id="container">
-        <div id="sidecolumn">
+        <div id="sideColumn">
             <!--Exit Links-->
             <ul>
-                <li class="exit"><a href="https://opoznai.bg/lovech/all" target="_blank">Ловеч</a></li>
-                <li class="exit"><a href="https://ezikova-lovech.eu/" target="_blank">Езикова гимназия - Ловеч</a></li>
-                <li class="exit"><a href="https://tu-sofia.bg/" target="_blank">ТУ - София</a></li>
-                <li class="exit"><a href="https://aula.bg/site/register" target="_blank">Aula</a></li>
-                <li class="exit"><a href="https://simpli-web.app.link/e/IogUDYzDTpb" target="_blank">Simplilearn</a></li>
+                <li class="exitLinks"><a href="https://opoznai.bg/lovech/all" target="_blank">Ловеч</a></li>
+                <li class="exitLinks"><a href="https://ezikova-lovech.eu/" target="_blank">ЕГ - Ловеч</a></li>
+                <li class="exitLinks"><a href="https://tu-sofia.bg/" target="_blank">ТУ - София</a></li>
+                <li class="exitLinks"><a href="https://aula.bg/site/register" target="_blank">Aula</a></li>
+                <li class="exitLinks"><a href="https://simpli-web.app.link/e/IogUDYzDTpb" target="_blank">Simplilearn</a></li>
             </ul>
         </div>
-        <div class="main-aside">
+        <div class="asideMiddle">
             <!--Aside Info-->
             <a name="languages"></a>
             <h2 class="languages">Езици</h2>
@@ -89,61 +90,77 @@
             <a name="interests"></a>
             <h2 class="interests">Интереси</h2>
             <ul>
-                <li class="sport">Спорт</li>
+                <li class="sport">Тенис на маса</li>
                 <li class="cinema">Кино</li>
                 <li class="books">Книги</li>
             </ul>
         </div>
-        <div class="main-main">
+        <div class="mainMiddle">
             <!--Main Info-->
             <a name="experience"></a>
             <h2 class="experience">Опит</h2>
             <dl>
-                <dt>2022</dt>
-                <dd>
-                    <h3>Програмиране</h3>
-                    <p>Създаване на собствен сайт с HTML5&amp;CSS3</p>
-                </dd>
-                <dt>2021</dt>
-                <dd>
-                    <h3>Програмиране</h3>
-                    <p>Създаване на собствен сайт с WordPress</p>
-                </dd>
-                <dt>2008</dt>
-                <dd>
-                    <h3>SD&AKKA Group</h3>
-                    <p>Инженер индустриални системи</p>
-                </dd>
-                <dt>2004</dt>
-                <dd>
-                    <h3>SPARKY Group</h3>
-                    <p>Инженер-технолог</p>
-                </dd>
+                <div>
+                    <dt>2022</dt>
+                    <dd>
+                        <h3>Програмиране</h3>
+                        <p>Създаване на собствен сайт<br>с HTML5&amp;CSS3</p>
+                    </dd>
+                </div>
+                <div>
+                    <dt>2021</dt>
+                    <dd>
+                        <h3>Програмиране</h3>
+                        <p>Създаване на собствен сайт<br>с WordPress</p>
+                    </dd>
+                </div>
+                <div>
+                    <dt>2008</dt>
+                    <dd>
+                        <h3>SD&AKKA Group</h3>
+                        <p>Инженер индустриални системи</p>
+                    </dd>
+                </div>
+                <div>
+                    <dt>2004</dt>
+                    <dd>
+                        <h3>SPARKY Group</h3>
+                        <p>Инженер-технолог</p>
+                    </dd>
+                </div>
             </dl>
             <br>
             <a name="education"></a>
             <h2 class="education">Образование</h2>
             <dl>
-                <dt>2022</dt>
+                <div>
+                    <dt>2022</dt>
                     <dd>
                         <h3>Simplilearn</h3>
                         <p>Git</p>
                     </dd>
-                <dt>2021-2022</dt>
-                <dd>
-                    <h3>Аула</h3>
-                    <p>WordPress, HTML5&amp;CSS3, JavaScript</p>
-                </dd>
-                <dt>1997-2002</dt>
-                <dd>
-                    <h3>Технически университет - София</h3>
-                    <p>Машинен инженер - магистър</p>
-                </dd>
-                <dt>1992-1997</dt>
-                <dd>
-                    <h3>Езикова гимназия - Ловеч</h3>
-                    <p>Немски и английски език</p>
-                </dd>
+                </div>
+                <div>
+                    <dt>2021-2022</dt>
+                    <dd>
+                        <h3>Аула</h3>
+                        <p>WordPress, HTML5&amp;CSS3, JavaScript</p>
+                    </dd>
+                </div>
+                <div>
+                    <dt>1997-2002</dt>
+                    <dd>
+                        <h3>Технически университет - София</h3>
+                        <p>Машинен инженер - магистър</p>
+                    </dd>
+                </div>
+                <div>
+                    <dt>1992-1997</dt>
+                    <dd>
+                        <h3>Езикова гимназия - Ловеч</h3>
+                        <p>Немски и английски език</p>
+                    </dd>
+                </div>
             </dl>
         </div>
     </main>
