@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+/*container*/
+#container {
+    width: 900px;
+    overflow: scroll;
+}
+
+main article {
+    width: 100%;
+}
+main article h1 {
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
