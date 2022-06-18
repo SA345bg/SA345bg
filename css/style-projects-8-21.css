@@ -3,6 +3,10 @@
     padding: 0;
     outline: 0;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 /*container*/
 #container {
     position: relative;
@@ -20,9 +24,10 @@ main article h1 {
     color: orange;
     font-size: 20px;
     font-weight: bold;
+    text-indent: 15px;
 }
 .intro {
-    font-style: oblique;
+    font-size: 18px;
 }
 a {
     text-decoration: none;
@@ -43,7 +48,19 @@ a:visited {
     color: red;
 }
 p {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: justify;
     text-indent: 15px;
+}
+main article div p::first-letter {
+    font-size: 200%;
+    color: red;
+}
+blockquote {
+    font-size: 20px;
+    font-style: oblique;
+    color: tomato;
+    text-align: justify;
+    text-indent: 15px;
+    margin-top: 10px;
 }
