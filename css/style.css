@@ -59,6 +59,7 @@ footer {
     width: 100%;
     height: 50px;
     margin-right: 20px;
+    float: left;
 }
 /*navigation menu*/
 nav {
@@ -189,7 +190,7 @@ main div p {
 /*main*/
 .mainMiddle {
     position: relative;
-    top: -150px;
+    top: -100px;
     width: 50%;
     margin: 350px -330px 0 150px;
     min-height: 600px;
@@ -207,40 +208,51 @@ main div p {
 /*main*/
 main aside h2, main div h2 {
     color: red;
-    font-size: 20px;
+    font-size: 30px;
+    margin-left: 15px;
 }
-main div dl {
+main div div dl {
     font-size: 20px;
+    width: 50%;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-main div dl div dt {
+main div div dl dt {
     position: relative;
-    top: 10px;
     float: left;
     font-style: italic;
-    width: 250px;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-weight: bold;
 }
-main div dl div dd {
-    font-size: 15px;
-    height: 100px;
-    width: 250px;
-}
-main div dl div dd h3 {
-    margin: 0;
-    padding: 0;
+main div div dl dd {
     position: relative;
-    top: 30px;
     float: left;
-    width: 250px;
+    width: 100%;
+    height: 80px;
+    margin-left: 15px;
+    background-color: transparent;
 }
-main div dl div dd p {
+main div div dl dd h3 {
     position: relative;
-    top: 20px;
-    margin: 0;
-    padding: 0;
-    font-size: 15px;
-    font-weight: normal;
-    color: black;
-    width: 250px;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+main div div dl dd p {
+    position: relative;
+    top: -10px;
+    width: 100%;
+    float: left;
+    margin-left: 15px;
+    background-color: transparent;
+    margin: 0 0 0 -200px;
+    text-align: left;
+    margin-top: 10px;
+    color: blue;
 }
 /*footer*/
 footer h1 {
@@ -266,4 +278,16 @@ a:hover {
 }
 a:visited {
     color: lightskyblue;
+}
+
+main aside ul {
+    list-style: none;
+}
+main aside ul li {
+    margin-left: 15px;
+    color: blue;
+}
+main div ul li {
+    margin-left: 15px;
+    color: blue;
 }
