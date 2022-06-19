@@ -324,3 +324,82 @@ main div ul li {
     border-radius: 172.5px;
     border: 1px solid black;
 }
+
+/*main services*/
+
+#wrapper {
+    width: 1200px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F25F29;
+}
+
+#sideColumnLeft {
+    position: relative;
+    top: 20px;
+    float: left;
+    width: 400px;
+    height: 600px;
+    background: #F2B544;
+}
+
+#sideColumnRight {
+    position: relative;
+    top: 20px;
+    float: right;
+    width: 800px;
+    height: 600px;
+    background: #55D9D9;
+}
+.boxes {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+.box {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    float: left;
+    height: 120px;
+    width: 120px;
+    margin: 25px;
+    padding: 25px;
+    background: #A8D977;
+    border: 1px solid black;
+}
+.box:hover {
+    background-color: #F2B544;
+    border-bottom: 3px solid red;
+}
+
+.create2 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+.prizes {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+.heading2 {
+    position: relative;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.para {
+    position: relative;
+    top: 10px;
+    float: left;
+    display: block;
+    margin-left: -50px;
+    color: yellow;
+}
+.link {
+    text-decoration: none;
+}
