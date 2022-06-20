@@ -311,7 +311,7 @@ main div ul li {
     font-size: 20px;
     margin-left: 10px;
     z-index: 10;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #projectBible {
@@ -367,11 +367,11 @@ main div ul li {
     width: 120px;
     margin: 25px;
     padding: 25px;
-    background: #A8D977;
+    background: white;
     border: 1px solid black;
 }
 .box:hover {
-    background-color: #F2B544;
+    background-color: lightcyan;
     border-bottom: 3px solid red;
 }
 
@@ -398,8 +398,37 @@ main div ul li {
     float: left;
     display: block;
     margin-left: -50px;
-    color: yellow;
+    color: blue;
+    text-align: left;
 }
 .link {
     text-decoration: none;
+}
+main h1 {
+    margin-left: 20px;
+    color: white;
+}
+main div ul li h3 a {
+    text-decoration: underline;
+}
+main div div div h3 {
+    color: black;
+}
+main div div div h3 a {
+    text-decoration: underline;
+}
+.clear {
+    clear: both;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    color: white;
+}
+.email {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    float: left;
+    color: white;
+    margin-left: -20px;
 }
