@@ -500,3 +500,71 @@ main div div div h3 a {
     left: -200px;
     float: right;
 }
+
+/*News*/
+#newsMain {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1200px;
+    margin: 0 10%;
+    height: 800px;
+    background-color: aqua;
+}
+#news1 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: transparent;
+    display: block;
+    text-align: center;
+}
+#news2 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    float: left;
+    display: block;
+    color: red;
+    font-weight: bold;
+    width: 100%;
+    background-color: transparent;
+}
+#attention2 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    float: left;
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    color: #F2B544;
+}
+#news3 {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    float: left;
+    display: block;
+    font-weight: bold;
+    width: 100%;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -10px;
+}
+#news4 {
+    color: blue;
+}
+#newsImage {
+    position: relative;
+    top: 120px;
+    left: -200px;
+    float: right;
+}
