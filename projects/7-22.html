@@ -16,19 +16,19 @@
         <fieldset>
             <legend>Лични данни</legend>
             <p>Име: <input type="text" name="name" value="" size="15" placeholder="Име" required></p>
-            <p>E-mail: <input type="text" name="email" value="" size="25" placeholder="Електронна поща" required></p>
+            <p>E-mail: <input type="email" name="email" value="" size="25" placeholder="Електронна поща" required></p>
         </fieldset>
         <fieldset>
             <legend>Затлъстяване</legend>
             <p>Q1: Знаете ли какво е нормалното за Вас тегло?</p>
-            <input type="radio" name="Q1" value="Да">Да
-            <input type="radio" name="Q1" value="Не">Не
-            <input type="radio" name="Q1" value="Не ме интересува. За какво ми е това?">Не ме интересува. За какво ми е това?
+            <label><input type="radio" name="Q1" value="Да">Да</label>
+            <label><input type="radio" name="Q1" value="Не">Не</label>
+            <label><input type="radio" name="Q1" value="Не ме интересува. За какво ми е това?">Не ме интересува. За какво ми е това?</label>
             <hr/>
             <p>Q2: Ако реалното Ви тегло е по-голямо от нормалното, имате наднормено тегло. Знаете ли коя степен затлъстяване имате?</p>
-            <input type="radio" name="Q2" value="Да">Да
-            <input type="radio" name="Q2" value="Не">Не
-            <input type="radio" name="Q2" value="Не ме интересува. За какво ми е това?">Не ме интересува. За какво ми е това?
+            <label><input type="radio" name="Q2" value="Да">Да</label>
+            <label><input type="radio" name="Q2" value="Не">Не</label>
+            <label><input type="radio" name="Q2" value="Не ме интересува. За какво ми е това?">Не ме интересува. За какво ми е това?</label>
         </fieldset>
         <fieldset>
             <legend>Здравеопазване</legend>
@@ -50,21 +50,21 @@
             </select>
             <hr/>
             <p>Q5: Кога последно сте били на рехабилитация по клинична пътека за свое заболяване в базите на "СБР-НК" ЕАД [<a href="http://nkrehabilitation.bg/filiali/" target="_blank">nkrehabilitation.bg</a>] за 7 дни или на профилактика, рехабилитация и/или отдих в базите на "ПРО" ЕАД [<a href="https://www.bgholiday.com/noi" target="_blank">bgholiday.com</a>] за 10 дни?</p>
-            <input type="radio" name="Q5" value="Миналата година.">Миналата година. 
-            <input type="radio" name="Q5" value="Преди 5 години.">Преди 5 години.
-            <input type="radio" name="Q5" value="Преди 10 години.">Преди 10 години.
-            <input type="radio" name="Q5" value="Преди 20 години.">Преди 20 години.
-            <input type="radio" name="Q5" value="По времето на социализма.">По времето на социализма. 
-            <input type="radio" name="Q5" value="Никога не съм ходил.">Никога не съм ходил.
+            <label><input type="radio" name="Q5" value="Миналата година.">Миналата година.</label>
+            <label><input type="radio" name="Q5" value="Преди 5 години.">Преди 5 години.</label>
+            <label><input type="radio" name="Q5" value="Преди 10 години.">Преди 10 години.</label>
+            <label><input type="radio" name="Q5" value="Преди 20 години.">Преди 20 години.</label>
+            <label><input type="radio" name="Q5" value="По времето на социализма.">По времето на социализма.</label>
+            <label><input type="radio" name="Q5" value="Никога не съм ходил.">Никога не съм ходил.</label>
         </fieldset>
         <fieldset>
             <legend>Затлъстяване 2</legend>
             <p>Q6: От колко години сте с наднормено тегло?</p>
-            <input type="radio" name="Q6" value="От 1 година.">От 1 година.
-            <input type="radio" name="Q6" value="От 3 години.">От 3 години.
-            <input type="radio" name="Q6" value="От 5 години.">От 5 години.
-            <input type="radio" name="Q6" value="От 10 години.">От 10 години.
-            <input type="radio" name="Q6" value="От повече от 10 години.">От повече от 10 години.
+            <label><input type="radio" name="Q6" value="От 1 година.">От 1 година.</label>
+            <label><input type="radio" name="Q6" value="От 3 години.">От 3 години.</label>
+            <label><input type="radio" name="Q6" value="От 5 години.">От 5 години.</label>
+            <label><input type="radio" name="Q6" value="От 10 години.">От 10 години.</label>
+            <label><input type="radio" name="Q6" value="От повече от 10 години.">От повече от 10 години.</label>
             <hr/>
             <p>Q7: Изследвали ли сте се за диабет, ако сте с наднормено тегло повече от 5 години /без значение от групата затлъстяване/? Затлъстяването е основният фактор за развитие на захарен диабет от тип 2.</p>
             <select name="Q7" id="Q7" size="3">
@@ -104,8 +104,8 @@
             <textarea name="Q16" id="Q16" cols="150" rows="1"></textarea>
             <hr/>
             <p>Q17: Чували ли сте нещо за програмата "Редукция", която помага на хора с наднормено тегло да отслабнат без  да си докарат други болести, по която работят някои ендокринолози /имат лепенка на вратата с логото на програмата/?</p>
-            <input type="radio" name="Q17" value="Да.">Да.
-            <input type="radio" name="Q17" value="Не.">Не.            
+            <label><input type="radio" name="Q17" value="Да.">Да.</label>
+            <label><input type="radio" name="Q17" value="Не.">Не.</label>
         </fieldset>
         <fieldset>
             <legend>Култура на хранене</legend>
@@ -142,7 +142,7 @@
             <p>Q28: Какви въглехидрати се съдържат в шоколада, сладоледа, плодовите сладкиши, мармалада, халвата, вафлите, пастите и т. н.?</p>
             <textarea name="Q28" id="Q28" cols="150" rows="1"></textarea>
             <hr/>
-            <p>Q29: Защо въглехидратите от Q28 се водят врезни?</p>
+            <p>Q29: Защо въглехидратите от Q28 се водят вредни?</p>
             <textarea name="Q29" id="Q29" cols="150" rows="1"></textarea>
             <hr/>
             <p>Q30: Кой е главният източник на въглехидрати за човека?</p>
@@ -177,11 +177,12 @@
             <hr/>
             <p>Q40: Кога пред деня е най-добре да се приемат въглехидратни храни и защо?</p>
             <textarea name="Q40" id="Q40" cols="150" rows="1"></textarea>
-            <hr/>
         </fieldset>
         <br/>
         <input type="submit" value="Изпрати">
         <br/>
+        <p>Внимание! За да изпратите попълнената от Вас информация във формуляра, трябва да имате инсталиран <a href="https://clean.email/best-free-email-client">E-Mail Client</a> на компютъра си, който да е <a href="https://www.officetooltips.com/office_2016/tips/how_to_modify_default_mail_client_in_windows_10.html">конфигуриран</a> да изпраща писма от Вашата електронна поща! Така може да копирате отговорите си или да ги изпратите до друга своя електронна поща.</p>
+        <label></label>
     </form>
 </body>
 </html>
