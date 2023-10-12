@@ -3,3 +3,4 @@ line2 by github
 line three by github
 line4 by github
 line five by github
+line6 (edited locally)
